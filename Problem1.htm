@@ -1,0 +1,33 @@
+<script type="text/javascript">
+<!--
+var number1, number2;
+var finalAnswer = 0;
+//number1 = prompt("What is the first number?","");
+//number1 = parseInt(number1);
+
+for (i = 0; i < 1000; i++)
+
+{
+number1 = i;
+answer = number1 % 3
+if (answer == 0)
+	 {
+//	 				 alert("Yippee a Zero");
+					 finalAnswer = finalAnswer + number1;
+//					 alert(finalAnswer);
+					}
+else
+{
+ 		answer = number1 % 5;
+ 		if (answer ==0)
+ 		{
+		 	 finalAnswer = finalAnswer + number1;
+			 		//				 alert(finalAnswer);
+	}								 
+}
+}
+
+ 
+document.write(finalAnswer);
+// -->
+</script>
